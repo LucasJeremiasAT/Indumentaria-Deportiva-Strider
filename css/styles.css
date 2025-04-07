@@ -1,0 +1,546 @@
+/* ---FONT--- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: righteous;
+}
+
+/* ---HEADER--- */
+
+/* --Menu de navegacion-- */
+
+header {
+    position: fixed;
+    background-color:#68D2E8;
+    border: 1px solid #03AED2;
+    width: 100%;
+    z-index: 1;
+}
+
+header ul { 
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header a {
+    margin: 5px;
+}
+
+/* --Logo para menu de navegacion-- */
+
+nav img {
+    width: 1em;
+}
+
+/* --Botones del menu-- */
+
+.boton-menu {
+    text-decoration: none;
+    color: #03AED2;
+    background-color: #FEEFAD;
+    padding: 2px;
+    border: 1px solid #03AED2;
+}
+
+/* ---MAIN--- */
+
+main {
+    padding-top: 40px;
+    background-color: #FEEFAD;
+    height: 1200px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #03AED2;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #03AED2;
+    margin: 35px 300px;
+}
+
+/* --Inicio-- */
+
+/* --Contenido de la pagina principal-- */
+
+.contenido-inicio {
+    display: grid;
+    grid-template-columns: 22.5% repeat(3, 15%) 22.5%;
+    grid-template-rows: 80px 240px repeat(2, 320px);
+    grid-template-areas: 
+    ". titulo titulo titulo ."
+    "running natacion natacion natacion ciclismo"
+    "running gimnasia gimnasia gimnasia-barra ciclismo"
+    "running futbol futbol gimnasia-barra ciclismo";
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-inicio img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-inicio h1 {
+    grid-area: titulo;
+}
+
+.img-natacion {
+    grid-area: natacion;
+}
+
+.img-running {
+    grid-area: running;
+}
+
+.img-ciclismo {
+    grid-area: ciclismo;
+}
+
+.img-gimnasia {
+    grid-area: gimnasia;
+}
+
+.img-futbol {
+    grid-area: futbol;
+}
+
+.img-gimnasia-barra {
+    grid-area: gimnasia-barra;
+}
+
+/* --Imagen de seccion quienes somos-- */
+
+.quienes-somos img {
+    height: 500px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+/* --Texto de seccion quienes somos-- */
+
+.quienes-somos p {
+    color: #03AED2;
+    margin: 10px 300px;
+}
+
+/* --Productos en venta-- */
+
+.articulos {
+    color: #03AED2;
+    display: grid;
+    grid-template-columns: repeat(3, 17%);
+    grid-template-rows: 50px repeat(2, 300px);
+    grid-template-areas: 
+    "subtitulo . ."
+    "articulo1 articulo2 articulo3"
+    "articulo4 articulo5 articulo6";
+    row-gap: 50px;
+    column-gap: 20px;
+    justify-content: center;
+}
+.articulos2 {
+    color: #03AED2;
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    grid-template-areas: 
+    "subtitulo . ."
+    "articulo1 articulo2 articulo3"
+    "articulo4 articulo5 articulo6";
+    gap: 20px;
+    justify-content: center;
+}
+
+.articulos img {
+    width: 100%;
+    height: 100%;
+}
+
+.articulos p {
+    margin: 5px;
+}
+
+.articulos2 h2 {
+    margin: 50px 0px;
+}
+
+/* --Ropa-- */
+
+.remera-mujer {
+    grid-area: articulo1;
+}
+
+.remera-hombre {
+    grid-area: articulo2;
+}
+
+.short-mujer {
+    grid-area: articulo3;
+}
+
+.short-hombre {
+    grid-area: articulo4;
+}
+
+.buzo-deportivo {
+    grid-area: articulo5;
+}
+
+.calza-deportiva {
+    grid-area: articulo6;
+}
+
+/* --Calzado-- */
+
+.zapatillas-1 {
+    grid-area: articulo1;
+}
+
+.zapatillas-2 {
+    grid-area: articulo2;
+}
+
+.zapatillas-3 {
+    grid-area: articulo4;
+}
+
+.zapatillas-4 {
+    grid-area: articulo5;
+}
+
+.botines-1 {
+    grid-area: articulo3;
+}
+
+.botines-2 {
+    grid-area: articulo6;
+}
+
+/* --Formulario-- */
+
+/* --Labels del form-- */
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    color: #03AED2;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #03AED2;
+    color: #FEEFAD;
+    border: 1px solid #000000;
+    margin-top: 10px;
+}
+
+/* ---FOOTER--- */
+
+footer {
+    text-align: center;
+    background-color: #68D2E8;
+    color: #FEEFAD;
+    height: 100%;
+    padding: 2%;
+    border: 1px solid #03AED2;
+}
+
+footer a img {
+    height: 1.2%;
+    width: 1.2%;
+    margin: -5px 1px;
+}
+
+footer img {
+    height: 1%;
+    width: 1%;
+    margin: -12px 2px;
+}
+
+/* --RESPONSIVE MOBILE-- */
+
+@media (max-width: 500px){
+    /* ---HEADER--- */
+
+/* --Menu de navegacion-- */
+
+header {
+    position: fixed;
+    background-color:#68D2E8;
+    border: 1px solid #03AED2;
+    width: 100%;
+    z-index: 1;
+}
+
+header ul { 
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header a {
+    margin: 5px;
+}
+
+/* --Logo para menu de navegacion-- */
+
+nav img {
+    width: 1em;
+}
+
+/* --Botones del menu-- */
+
+.boton-menu {
+    text-decoration: none;
+    color: #03AED2;
+    background-color: #FEEFAD;
+    padding: 2px;
+    border: 1px solid #03AED2;
+}
+
+/* ---MAIN--- */
+
+main {
+    padding-top: 40px;
+    background-color: #FEEFAD;
+    height: 1100px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #03AED2;
+    font-size: 1.1em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #03AED2;
+    margin: 35px 300px;
+}
+
+/* --Inicio-- */
+
+/* --Contenido de la pagina principal-- */
+
+.contenido-inicio {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 30px 120px repeat(4, 120px);
+    grid-template-areas: 
+    "titulo titulo"
+    "natacion natacion"
+    "running ciclismo"
+    "running ciclismo"
+    "gimnasia gimnasia-barra"
+    "futbol gimnasia-barra";
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-inicio img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-inicio h1 {
+    grid-area: titulo;
+}
+
+.img-natacion {
+    grid-area: natacion;
+}
+
+.img-running {
+    grid-area: running;
+}
+
+.img-ciclismo {
+    grid-area: ciclismo;
+}
+
+.img-gimnasia {
+    grid-area: gimnasia;
+}
+
+.img-futbol {
+    grid-area: futbol;
+}
+
+.img-gimnasia-barra {
+    grid-area: gimnasia-barra;
+}
+
+/* --Imagen de seccion quienes somos-- */
+
+.quienes-somos img {
+    height: 500px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+/* --Texto de seccion quienes somos-- */
+
+.quienes-somos p {
+    color: #03AED2;
+    margin: 10px 300px;
+}
+
+/* --Productos en venta-- */
+
+.articulos {
+    color: #03AED2;
+    display: grid;
+    grid-template-columns: repeat(3, 17%);
+    grid-template-rows: 50px repeat(2, 300px);
+    grid-template-areas: 
+    "subtitulo . ."
+    "articulo1 articulo2 articulo3"
+    "articulo4 articulo5 articulo6";
+    row-gap: 50px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.articulos img {
+    width: 100%;
+    height: 100%;
+}
+
+.articulos p {
+    margin: 5px;
+}
+
+.articulos h2 {
+    margin: 50px 0px;
+}
+
+/* --Ropa-- */
+
+.remera-mujer {
+    grid-area: articulo1;
+}
+
+.remera-hombre {
+    grid-area: articulo2;
+}
+
+.short-mujer {
+    grid-area: articulo3;
+}
+
+.short-hombre {
+    grid-area: articulo4;
+}
+
+.buzo-deportivo {
+    grid-area: articulo5;
+}
+
+.calza-deportiva {
+    grid-area: articulo6;
+}
+
+/* --Calzado-- */
+
+.zapatillas-1 {
+    grid-area: articulo1;
+}
+
+.zapatillas-2 {
+    grid-area: articulo2;
+}
+
+.zapatillas-3 {
+    grid-area: articulo4;
+}
+
+.zapatillas-4 {
+    grid-area: articulo5;
+}
+
+.botines-1 {
+    grid-area: articulo3;
+}
+
+.botines-2 {
+    grid-area: articulo6;
+}
+
+}
+
+/* ---FOOTER--- */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    grid-template-rows: 10px 10px;
+    grid-template-areas:
+    "telefono1 telefono1 logo redes1 redes1"
+    "telefono2 telefono2 logo redes2 redes2";
+    background-color: #68D2E8;
+    color: #FEEFAD;
+    height: 100%;
+    padding: 2%;
+    border: 1px solid #03AED2;
+    font-size: 10px;
+}
+
+.telefono-1 {
+    grid-area: telefono1;
+}
+
+.telefono-2 {
+    grid-area: telefono2;
+}
+
+.logo-strider {
+    grid-area: logo;
+}
+
+.redes-1 {
+    grid-area: redes1;
+}
+
+.redes-2 {
+    grid-area: redes2;
+}
+
+
+footer a img {
+    height: 12px;
+    width: 12px;
+}
+
+footer img {
+    height: 5%;
+    width: 5%;
+    z-index: 10;
+}
