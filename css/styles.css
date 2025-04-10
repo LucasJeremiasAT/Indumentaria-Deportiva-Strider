@@ -141,6 +141,13 @@ h2 {
 
 /* --Productos en venta-- */
 
+.color-tarjeta {
+    background-color: #68D2E8;
+    border: 1px solid #03AED2;
+    text-shadow: 1px 1px 1px #03AED2;
+    color: #FDDE55;
+}
+
 .articulos {
     color: #03AED2;
     display: grid;
