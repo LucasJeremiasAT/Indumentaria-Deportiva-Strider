@@ -86,9 +86,9 @@ h2 {
     "running natacion natacion natacion ciclismo"
     "running gimnasia gimnasia gimnasia-barra ciclismo"
     "running futbol futbol gimnasia-barra ciclismo";
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .contenido-inicio img {
@@ -142,26 +142,12 @@ h2 {
 /* --Productos en venta-- */
 
 .color-tarjeta {
-    background-color: #68D2E8;
-    border: 1px solid #03AED2;
-    text-shadow: 1px 1px 1px #03AED2;
-    color: #FDDE55;
+    background-color: #FDDE55;
+    border-bottom: 2px solid #03AED2;
+    color: #03AED2;
 }
 
 .articulos {
-    color: #03AED2;
-    display: grid;
-    grid-template-columns: repeat(3, 17%);
-    grid-template-rows: 50px repeat(2, 300px);
-    grid-template-areas: 
-    "subtitulo . ."
-    "articulo1 articulo2 articulo3"
-    "articulo4 articulo5 articulo6";
-    row-gap: 50px;
-    column-gap: 20px;
-    justify-content: center;
-}
-.articulos2 {
     color: #03AED2;
     display: grid;
     grid-template-columns: repeat(3, 20%);
@@ -171,19 +157,6 @@ h2 {
     "articulo4 articulo5 articulo6";
     gap: 20px;
     justify-content: center;
-}
-
-.articulos img {
-    width: 100%;
-    height: 100%;
-}
-
-.articulos p {
-    margin: 5px;
-}
-
-.articulos2 h2 {
-    margin: 50px 0px;
 }
 
 /* --Ropa-- */
@@ -332,7 +305,7 @@ nav img {
 main {
     padding-top: 40px;
     background-color: #FEEFAD;
-    height: 1100px;
+    height:900px;
 }
 
 h1 {
