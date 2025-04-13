@@ -27,6 +27,8 @@ header ul {
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 0px;
+    padding: 10px;
 }
 
 header a {
@@ -52,9 +54,10 @@ nav img {
 /* ---MAIN--- */
 
 main {
-    padding-top: 40px;
+    display: inline-block;
+    padding: 40px 0px;
+    width: 100%;
     background-color: #FEEFAD;
-    height: 1200px;
 }
 
 h1 {
@@ -223,7 +226,7 @@ h2 {
 
 form {
     color: #03AED2;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
 }
 
@@ -265,7 +268,6 @@ footer img {
 /* --Menu de navegacion-- */
 
 header {
-    position: fixed;
     background-color:#68D2E8;
     border: 1px solid #03AED2;
     width: 100%;
@@ -275,9 +277,9 @@ header {
 header ul { 
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
+    margin: 0;
+    padding: 5px;
 }
 
 header a {
@@ -303,9 +305,7 @@ nav img {
 /* ---MAIN--- */
 
 main {
-    padding-top: 40px;
-    background-color: #FEEFAD;
-    height:900px;
+    min-height: 100vh;
 }
 
 h1 {
@@ -315,6 +315,7 @@ h1 {
     font-weight: 800;
     color: #03AED2;
     font-size: 1.1em;
+    margin-top: 10px;
 }
 
 h2 {
@@ -322,7 +323,8 @@ h2 {
     font-family: sans-serif;
     font-weight: 800;
     color: #03AED2;
-    margin: 35px 300px;
+    margin: 10px;
+    font-size: 1.1em;
 }
 
 /* --Inicio-- */
