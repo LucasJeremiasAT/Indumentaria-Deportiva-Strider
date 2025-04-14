@@ -173,11 +173,11 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    text-shadow: 1px 1px 8px #000000;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 input, textarea{
-    border: 1px solid #000000;
+    border: 0.5px solid #000000;
 }
 
 .formulario {
