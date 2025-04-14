@@ -166,32 +166,23 @@ h2 {
     color: #03AED2;
 }
 
-.articulos {
-    color: #03AED2;
-    display: grid;
-    grid-template-columns: repeat(3, 20%);
-    grid-template-areas: 
-    "subtitulo . ."
-    "articulo1 articulo2 articulo3"
-    "articulo4 articulo5 articulo6";
-    gap: 20px;
-    justify-content: center;
-}
-
 /* --Formulario-- */
-
-/* --Labels del form-- */
-
-.formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 form {
     color: #03AED2;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
+    max-width: 500px;
+}
+
+.formulario {
+    background-image: url(../media/fondo-form.jpg);
+    background-size: cover;
+    height: 600px;
+    margin: 50px 0px;
+    padding: 40px 200px;
+    border-top: 2px solid #03AED2;
+    border-bottom: 2px solid #03AED2;
 }
 
 button {
@@ -199,6 +190,12 @@ button {
     color: #FEEFAD;
     border: 1px solid #000000;
     margin-top: 10px;
+}
+
+.formulario img {
+    width: 100px;
+    position: absolute;
+    right: 15px;
 }
 
 /* ---FOOTER--- */
