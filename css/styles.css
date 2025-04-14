@@ -179,56 +179,7 @@ h2 {
 }
 
 /* --Ropa-- */
-
-.remera-mujer {
-    grid-area: articulo1;
-}
-
-.remera-hombre {
-    grid-area: articulo2;
-}
-
-.short-mujer {
-    grid-area: articulo3;
-}
-
-.short-hombre {
-    grid-area: articulo4;
-}
-
-.buzo-deportivo {
-    grid-area: articulo5;
-}
-
-.calza-deportiva {
-    grid-area: articulo6;
-}
-
 /* --Calzado-- */
-
-.zapatillas-1 {
-    grid-area: articulo1;
-}
-
-.zapatillas-2 {
-    grid-area: articulo2;
-}
-
-.zapatillas-3 {
-    grid-area: articulo4;
-}
-
-.zapatillas-4 {
-    grid-area: articulo5;
-}
-
-.botines-1 {
-    grid-area: articulo3;
-}
-
-.botines-2 {
-    grid-area: articulo6;
-}
 
 /* --Formulario-- */
 
@@ -449,58 +400,6 @@ h2 {
     margin: 50px 0px;
 }
 
-/* --Ropa-- */
-
-.remera-mujer {
-    grid-area: articulo1;
-}
-
-.remera-hombre {
-    grid-area: articulo2;
-}
-
-.short-mujer {
-    grid-area: articulo3;
-}
-
-.short-hombre {
-    grid-area: articulo4;
-}
-
-.buzo-deportivo {
-    grid-area: articulo5;
-}
-
-.calza-deportiva {
-    grid-area: articulo6;
-}
-
-/* --Calzado-- */
-
-.zapatillas-1 {
-    grid-area: articulo1;
-}
-
-.zapatillas-2 {
-    grid-area: articulo2;
-}
-
-.zapatillas-3 {
-    grid-area: articulo4;
-}
-
-.zapatillas-4 {
-    grid-area: articulo5;
-}
-
-.botines-1 {
-    grid-area: articulo3;
-}
-
-.botines-2 {
-    grid-area: articulo6;
-}
-
 /* ---FOOTER--- */
 
 footer {
@@ -538,4 +437,5 @@ footer {
 
 .redes-2 {
     grid-area: redes2;
+}
 }
