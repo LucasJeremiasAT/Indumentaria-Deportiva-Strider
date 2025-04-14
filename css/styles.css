@@ -19,6 +19,7 @@ header {
     border: 1px solid #03AED2;
     width: 100%;
     z-index: 1;
+    height: 40px;
 }
 
 header ul { 
@@ -28,7 +29,7 @@ header ul {
     align-items: center;
     height: 100%;
     margin: 0px;
-    padding: 10px;
+    padding: 5px;
 }
 
 header a {
@@ -125,6 +126,21 @@ h2 {
 
 .img-gimnasia-barra {
     grid-area: gimnasia-barra;
+}
+
+/* --Carrusel-- */
+
+.carrusel {
+    width: 25%;
+}
+
+.posicion-carrusel {
+    justify-content: center;
+}
+
+.texto-carrusel {
+    color: #FDDE55;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 /* --Imagen de seccion quienes somos-- */
@@ -324,7 +340,7 @@ h2 {
     font-weight: 800;
     color: #03AED2;
     margin: 10px;
-    font-size: 1.1em;
+    font-size: 0.7em;
 }
 
 /* --Inicio-- */
@@ -378,6 +394,10 @@ h2 {
 
 .img-gimnasia-barra {
     grid-area: gimnasia-barra;
+}
+
+.carrusel {
+    width: 70%;
 }
 
 /* --Imagen de seccion quienes somos-- */
