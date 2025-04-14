@@ -180,11 +180,15 @@ input, textarea{
     border: 0.5px solid #000000;
 }
 
+textarea {
+    resize: none;
+    height: 150px;
+}
+
 .formulario {
     background-image: url(../media/fondo-form.jpg);
     background-size: cover;
-    height: 600px;
-    margin: 50px 0px;
+    height: 700px;
     padding: 40px 200px;
     border-top: 2px solid #03AED2;
     border-bottom: 2px solid #03AED2;
