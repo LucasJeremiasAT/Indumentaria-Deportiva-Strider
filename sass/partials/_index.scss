@@ -1,0 +1,71 @@
+main {
+    display: inline-block;
+    padding: 40px 0px;
+    width: 100%;
+    background-color: #FEEFAD;
+    .contenido-inicio {
+        display: grid;
+        grid-template-columns: 22.5% repeat(3, 15%) 22.5%;
+        grid-template-rows: 80px 240px repeat(2, 320px);
+        grid-template-areas: 
+        ". titulo titulo titulo ."
+        "running natacion natacion natacion ciclismo"
+        "running gimnasia gimnasia gimnasia-barra ciclismo"
+        "running futbol futbol gimnasia-barra ciclismo";
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: 800;
+            color: #03AED2;
+            grid-area: titulo;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+}
+
+.img-natacion {
+    grid-area: natacion;
+}
+
+.img-running {
+    grid-area: running;
+}
+
+.img-ciclismo {
+    grid-area: ciclismo;
+}
+
+.img-gimnasia {
+    grid-area: gimnasia;
+}
+
+.img-futbol {
+    grid-area: futbol;
+}
+
+.img-gimnasia-barra {
+    grid-area: gimnasia-barra;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #03AED2;
+    margin: 35px 300px;
+}
+.carrusel {
+    width: 35%;
+    .texto-carrusel {
+        color: #FDDE55;
+        text-shadow: 1px 1px 4px #000000;
+    }
+}
+
+}

@@ -1,0 +1,57 @@
+/* --Sección Quienes Somos-- */
+
+.quienes-somos {
+    img {
+        height: 500px;
+        width: 700px;
+        margin-left: 300px;
+    }
+    p {
+        color: #03AED2;
+        margin: 10px 300px;
+    }
+}
+
+/* --Productos en venta-- */
+
+.color-tarjeta {
+    background-color: #FDDE55;
+    border-bottom: 2px solid #03AED2;
+    color: #03AED2;
+}
+
+/* --Formulario-- */
+
+.formulario {
+    background-image: url(../media/fondo-form.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 40px 200px;
+    border-top: 2px solid #03AED2;
+    border-bottom: 2px solid #03AED2;
+    form {
+        color: #FDDE55;
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        text-shadow: 1px 1px 4px #000000;
+        input, textarea{
+            border: 0.5px solid #000000;
+        }
+        textarea {
+            resize: none;
+            height: 150px;
+        }
+        button {
+            background-color: #03AED2;
+            color: #FDDE55;
+            border: 1px solid #000000;
+            margin-top: 10px;
+        }
+    }
+    img {
+        width: 100px;
+        position: absolute;
+        right: 15px;
+    }
+}
