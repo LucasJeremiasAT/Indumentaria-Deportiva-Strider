@@ -25,7 +25,7 @@ main {
             text-transform: uppercase;
             font-family: sans-serif;
             font-weight: 800;
-            color: #03AED2;
+            color: variables.$color-azul;
             font-size: 1.1em;
             margin-top: 10px;
             grid-area: titulo;
@@ -62,7 +62,7 @@ main {
         text-transform: uppercase;
         font-family: sans-serif;
         font-weight: 800;
-        color: #03AED2;
+        color: variables.$color-azul;
         margin: 10px;
         font-size: 0.7em;
     }
@@ -81,7 +81,7 @@ main {
         margin: auto;
     }
     p {
-        color: #03AED2;
+        color: variables.$color-azul;
         margin: 10px 10px;
 }
 }

@@ -7,7 +7,7 @@
         margin-left: 300px;
     }
     p {
-        color: #03AED2;
+        color: variables.$color-azul;
         margin: 10px 300px;
     }
 }
@@ -16,8 +16,8 @@
 
 .color-tarjeta {
     background-color: #FDDE55;
-    border-bottom: 2px solid #03AED2;
-    color: #03AED2;
+    border-bottom: 2px solid variables.$color-azul;
+    color: variables.$color-azul;
 }
 
 /* --Formulario-- */
@@ -27,25 +27,25 @@
     background-size: cover;
     height: 700px;
     padding: 40px 200px;
-    border-top: 2px solid #03AED2;
-    border-bottom: 2px solid #03AED2;
+    border-top: 2px solid variables.$color-azul;
+    border-bottom: 2px solid variables.$color-azul;
     form {
-        color: #FDDE55;
+        color: variables.$color-amarillo-fuerte;
         display: flex;
         flex-direction: column;
         max-width: 500px;
-        text-shadow: 1px 1px 4px #000000;
+        text-shadow: 1px 1px 4px variables.$color-negro;
         input, textarea{
-            border: 0.5px solid #000000;
+            border: 0.5px solid variables.$color-negro;
         }
         textarea {
             resize: none;
             height: 150px;
         }
         button {
-            background-color: #03AED2;
-            color: #FDDE55;
-            border: 1px solid #000000;
+            background-color: variables.$color-azul;
+            color: variables.$color-amarillo-fuerte;
+            border: 1px solid variables.$color-negro;
             margin-top: 10px;
         }
     }

@@ -2,7 +2,7 @@ main {
     display: inline-block;
     padding: 40px 0px;
     width: 100%;
-    background-color: #FEEFAD;
+    background-color: variables.$color-amarillo;
     .contenido-inicio {
         display: grid;
         grid-template-columns: 22.5% repeat(3, 15%) 22.5%;
@@ -20,7 +20,7 @@ main {
             text-transform: uppercase;
             font-family: sans-serif;
             font-weight: 800;
-            color: #03AED2;
+            color: variables.$color-azul;
             grid-area: titulo;
         }
         img {
@@ -57,14 +57,14 @@ h2 {
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
-    color: #03AED2;
+    color: variables.$color-azul;
     margin: 35px 300px;
 }
 .carrusel {
     width: 35%;
     .texto-carrusel {
-        color: #FDDE55;
-        text-shadow: 1px 1px 4px #000000;
+        color: variables.$color-amarillo-fuerte;
+        text-shadow: 1px 1px 4px variables.$color-negro;
     }
 }
 
