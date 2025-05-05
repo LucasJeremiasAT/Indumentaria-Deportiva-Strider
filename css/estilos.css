@@ -240,6 +240,7 @@ main .carrusel .texto-carrusel {
   }
   header ul .boton-menu:active {
     letter-spacing: 1px;
+    transform: none;
   }
   /* ---MAIN--- */
   main {
