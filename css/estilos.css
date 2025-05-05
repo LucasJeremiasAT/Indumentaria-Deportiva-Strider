@@ -235,6 +235,12 @@ main .carrusel .texto-carrusel {
     text-decoration: none;
     font-size: 9px;
   }
+  header ul .boton-menu:hover {
+    letter-spacing: 1px;
+  }
+  header ul .boton-menu:active {
+    letter-spacing: 1px;
+  }
   /* ---MAIN--- */
   main {
     min-height: 100vh;
