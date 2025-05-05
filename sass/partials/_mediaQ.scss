@@ -15,9 +15,9 @@ header {
         @include variables.centrar;
         height: 100%;
         margin: 0px;
-        padding: 2px;
+        padding: 1px;
         a {
-            margin: 5px;
+            margin: 1px;
             img {
                 width: 0.9em;
             }
@@ -31,14 +31,13 @@ header {
             letter-spacing: 1px;
             border: 0;
             text-decoration: none;
-            font-size: 9px;
+            font-size: 10px;
             }
         .boton-menu:hover {
             letter-spacing: 1px;
         }
         .boton-menu:active {
             letter-spacing: 1px;
-            transform: none;
         }
 }
 }

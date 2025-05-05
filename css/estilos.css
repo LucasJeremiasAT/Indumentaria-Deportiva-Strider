@@ -216,10 +216,10 @@ main .carrusel .texto-carrusel {
     align-items: center;
     height: 100%;
     margin: 0px;
-    padding: 2px;
+    padding: 1px;
   }
   header ul a {
-    margin: 5px;
+    margin: 1px;
   }
   header ul a img {
     width: 0.9em;
@@ -233,14 +233,13 @@ main .carrusel .texto-carrusel {
     letter-spacing: 1px;
     border: 0;
     text-decoration: none;
-    font-size: 9px;
+    font-size: 10px;
   }
   header ul .boton-menu:hover {
     letter-spacing: 1px;
   }
   header ul .boton-menu:active {
     letter-spacing: 1px;
-    transform: none;
   }
   /* ---MAIN--- */
   main {
