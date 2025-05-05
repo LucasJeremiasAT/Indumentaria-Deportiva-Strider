@@ -1,5 +1,7 @@
 /* --RESPONSIVE MOBILE-- */
 
+@use './variables';
+
 @media (max-width: 500px){
     
 /* ---MAIN--- */
@@ -18,14 +20,10 @@ main {
         "gimnasia gimnasia-barra"
         "futbol gimnasia-barra";
         gap: 10px;
-        justify-content: center;
-        align-items: center;
+        @include variables.centrar;
         h1 {
             text-align: center;
-            text-transform: uppercase;
-            font-family: sans-serif;
-            font-weight: 800;
-            color: variables.$color-azul;
+            @include variables.titulos-fuente;
             font-size: 1.1em;
             margin-top: 10px;
             grid-area: titulo;
@@ -35,6 +33,7 @@ main {
             height: 100%;
         } 
     }
+
     .img-natacion {
         grid-area: natacion;
     }
@@ -57,12 +56,10 @@ main {
     
     .img-gimnasia-barra {
         grid-area: gimnasia-barra;
-    }   
+    }
+
     h2 {
-        text-transform: uppercase;
-        font-family: sans-serif;
-        font-weight: 800;
-        color: variables.$color-azul;
+        @include variables.titulos-fuente;
         margin: 10px;
         font-size: 0.7em;
     }
@@ -114,8 +111,7 @@ footer {
     gap: 5px;
     height: 100%;
     padding: 2%;
-    justify-content: center;
-    align-items: center;
+    @include variables.centrar;
     .telefono-1 {
         grid-area: telefono1;
     }

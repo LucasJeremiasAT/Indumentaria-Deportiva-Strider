@@ -1,12 +1,15 @@
+@use './variables';
+
 /* --Sección Quienes Somos-- */
 
 .quienes-somos {
     img {
-        height: 500px;
-        width: 700px;
+        height: 550px;
+        width: 800px;
         margin-left: 300px;
     }
     p {
+        font-family: variables.$fuente-secundaria;
         color: variables.$color-azul;
         margin: 10px 300px;
     }

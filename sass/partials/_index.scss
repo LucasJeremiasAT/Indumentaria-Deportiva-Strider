@@ -1,3 +1,5 @@
+@use './variables';
+
 main {
     display: inline-block;
     padding: 40px 0px;
@@ -13,14 +15,10 @@ main {
         "running gimnasia gimnasia gimnasia-barra ciclismo"
         "running futbol futbol gimnasia-barra ciclismo";
         gap: 20px;
-        justify-content: center;
-        align-items: center;
+        @include variables.centrar;
         h1 {
             text-align: center;
-            text-transform: uppercase;
-            font-family: sans-serif;
-            font-weight: 800;
-            color: variables.$color-azul;
+            @include variables.titulos-fuente;
             grid-area: titulo;
         }
         img {
@@ -54,10 +52,7 @@ main {
 }
 
 h2 {
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-weight: 800;
-    color: variables.$color-azul;
+    @include variables.titulos-fuente;
     margin: 35px 300px;
 }
 .carrusel {
