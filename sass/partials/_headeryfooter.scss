@@ -15,7 +15,7 @@ header {
     border: 1px solid variables.$color-azul;
     width: 100%;
     z-index: 1;
-    height: 40px;
+    height: 45px;
     ul { 
         list-style-type: none;
         display: flex;
@@ -28,14 +28,40 @@ header {
             img {
                 width: 1em;
             }
+            img:hover {
+                transform: scale(1.2 , 1.2);
+            }
         }
         .boton-menu {
-            text-decoration: none;
-            color: variables.$color-azul;
+            padding: 5px 10px;
+            border-radius: 50px;
+            cursor: pointer;
+            border: 0;
             background-color: variables.$color-amarillo;
-            padding: 2px;
-            border: 1px solid variables.$color-azul;
-        }
+            color: variables.$color-azul;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            transition: all 0.5s ease;
+            }
+            
+        .boton-menu:hover {
+            letter-spacing: 3px;
+            background-color: variables.$color-azul;
+            color: variables.$color-amarillo;
+            box-shadow: variables.$color-azul 0px 7px 29px 0px;
+            }
+            
+        .boton-menu:active {
+            letter-spacing: 3px;
+            background-color: variables.$color-azul;
+            color: variables.$color-amarillo;
+            box-shadow: variables.$color-azul 0px 0px 0px 0px;
+            transform: translateY(10px);
+            transition: 100ms;
+            }
 }
 }
 /* ---FOOTER--- */
