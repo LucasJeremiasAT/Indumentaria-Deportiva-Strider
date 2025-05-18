@@ -3,15 +3,14 @@
 /* --Sección Quienes Somos-- */
 
 .quienes-somos {
-    img {
-        height: 550px;
-        width: 800px;
+    .carrusel-2 {
+        width: 50%;
         margin-left: 300px;
     }
     p {
         font-family: variables.$fuente-secundaria;
         color: variables.$color-azul;
-        margin: 10px 300px;
+        margin: 20px 300px;
     }
 }
 
@@ -28,33 +27,25 @@
 .formulario {
     background-image: url(../media/fondo-form.jpg);
     background-size: cover;
-    height: 700px;
+    height: auto;
     padding: 40px 200px;
     border-top: 2px solid variables.$color-azul;
     border-bottom: 2px solid variables.$color-azul;
     form {
         color: variables.$color-amarillo-fuerte;
-        display: flex;
-        flex-direction: column;
+        font-size: 1.2rem;
         max-width: 500px;
         text-shadow: 1px 1px 4px variables.$color-negro;
         input, textarea{
             border: 0.5px solid variables.$color-negro;
+            &::placeholder {
+            color: variables.$color-gris;
+            opacity: 0.7;
+        }
         }
         textarea {
             resize: none;
             height: 150px;
         }
-        button {
-            background-color: variables.$color-azul;
-            color: variables.$color-amarillo-fuerte;
-            border: 1px solid variables.$color-negro;
-            margin-top: 10px;
-        }
-    }
-    img {
-        width: 100px;
-        position: absolute;
-        right: 15px;
     }
 }
