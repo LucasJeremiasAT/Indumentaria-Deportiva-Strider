@@ -2,11 +2,17 @@
 
 /* --Sección Quienes Somos-- */
 
+.titulo-pages {
+    @include variables.titulos-fuente;
+    margin: 35px 300px;
+}
+
 .quienes-somos {
     .carrusel-2 {
         width: 50%;
         margin-left: 300px;
-    }
+        box-shadow: 1px 1px 4px variables.$color-azul;
+    }    
     p {
         font-family: variables.$fuente-secundaria;
         color: variables.$color-azul;
