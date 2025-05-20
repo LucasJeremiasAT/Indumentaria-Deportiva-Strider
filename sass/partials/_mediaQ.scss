@@ -175,7 +175,7 @@ footer {
 
 /* --RESPONSIVE TABLET-- */
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 1279px){
 
 /* ---HEADER--- */
 
@@ -269,7 +269,7 @@ main {
     }
     .titulo-pages {
         @include variables.titulos-fuente;
-        margin: 10px;
+        margin: 50px 20px;
         font-size: 1.5rem;
     }
     h2 {
@@ -286,12 +286,13 @@ main {
 
 .quienes-somos {
     .carrusel-2 {
-        width: 400px;
-        margin-left: 10px;
+        width: 80%;
+        margin: auto;
     }
     p {
         color: variables.$color-azul;
-        margin: 10px 10px;
+        margin: 20px 10px;
+        font-size: 1rem;
 }
 }
 

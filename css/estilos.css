@@ -355,7 +355,7 @@ main .carrusel .texto-carrusel {
   }
 }
 /* --RESPONSIVE TABLET-- */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   /* ---HEADER--- */
   header {
     width: 100%;
@@ -443,7 +443,7 @@ main .carrusel .texto-carrusel {
     font-family: "righteous", static;
     font-weight: 800;
     color: #03AED2;
-    margin: 10px;
+    margin: 50px 20px;
     font-size: 1.5rem;
   }
   main h2 {
@@ -459,12 +459,13 @@ main .carrusel .texto-carrusel {
   }
   /* --Sección Quienes Somos-- */
   .quienes-somos .carrusel-2 {
-    width: 400px;
-    margin-left: 10px;
+    width: 80%;
+    margin: auto;
   }
   .quienes-somos p {
     color: #03AED2;
-    margin: 10px 10px;
+    margin: 20px 10px;
+    font-size: 1rem;
   }
   /* --Contactanos-- */
   .formulario form {
